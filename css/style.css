@@ -164,7 +164,35 @@ main{
         display: inline-flex;
     }
 
+    form.card_container {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        background-color: #F2F2F2;
+        border-radius: 25px;
+        width: 60%;
 
+        
+      }
+      article.card_bloc {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        width: 200px;
+        height: 150px;
+        border: solid 3px white;
+        background-color: white;
+        border-radius: 25px;
+      }
+.image{
+    height: 100px;
+}
 
   @media all and (max-width: 768px){
 
