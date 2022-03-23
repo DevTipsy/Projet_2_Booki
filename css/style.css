@@ -39,7 +39,7 @@ nav a{
     text-decoration: none;
     font-size: 16px;
     color: black;
-    border-top: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    border-top: 2px solid transparent;
     padding: 30px;
 }
 nav a:hover{
@@ -121,13 +121,19 @@ main{
         font-family:Raleway;
         font-size:12px;
         text-decoration:none;
-        margin-left: 15px;
+        margin-left: 20px;
         width: auto;
+        height: 35px;
+        align-items: center;
+    }
+    .filtre:hover{
+        background-color: aliceblue;
     }
     a{
         text-decoration: none;
         display: inline-block;
         font-weight: bold;
+        padding: 0px 10px 0px 10px;
     }
     a.myButton:hover {
         background-color:transparent;
@@ -142,24 +148,22 @@ main{
         color: #0065FC;
         font-size: 15px;
         border-radius: 28px;
-        width: 35px;
-        height: 35px;
-        padding: 5px 5px 5px 5px;
+        text-align: center;
+        padding: 11px;
     }
 
     .infoicone{
-        margin-top: 20px;
-        display: inline-flex;
+        margin-top: 30px;
+        margin-bottom: 50px;
     }
     .infoicone p{
         margin-left: 15px;
+        display: inline-flex;
     }
-.bulle{
-    width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .fa-solid.fa-circle-info{
+        display: inline-flex;
+    }
+
 
 
   @media all and (max-width: 768px){
