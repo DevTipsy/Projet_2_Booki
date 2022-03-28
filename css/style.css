@@ -160,22 +160,25 @@ main{
     .fa-solid.fa-circle-info{
         display: inline-flex;
     }
-
-/*bloc*/
+.containers{
+    margin-left: 10px;
+}
+/*bloc1*/
 h2{
     font-size: 16px;
     width: 100%;
     margin: 25px 0px 0px 60px;
 }
     .flex_container {
-        display: flex;
+        display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        width: 60%;
+        width: 61%;
         border-radius: 20px;
         background-color: #F2F2F2;
         padding-top: 10px;
         padding-bottom: 50px;
+        margin-left: 30px;
         }
         .article1 {
         display: inline-flex;
@@ -209,11 +212,12 @@ h2{
         }
         a.texte {
             text-decoration: none;
-            display: inline-block;
+            display: inline;
             padding: 0px;
         }
         a.plus{
             text-decoration: none;
+            color: #000000;
             display: inline-block;
             padding: 0px 10px 0px 65px;
         }
@@ -223,6 +227,75 @@ h2{
         p.price{
             color: #000000;
         }
+        .rating1 {
+            color: #0065FC;
+            display: inline-flex;
+        }
+        .rating2 {
+            color: #F2F2F2;
+            display: inline-flex;
+        }
+        /*bloc2*/
+        .flex_container2 {
+                display: inline-flex;
+                flex-wrap: wrap;
+                height: 516px;
+                width: 25%;
+                border-radius: 20px;
+                background-color: #F2F2F2;
+                margin: 0px 0px 0px 55px;
+                padding: 35px 30px 35px 30px;
+            }
+            .article2 {
+                display: flex;
+                flex-direction: column ;
+                flex-wrap: wrap;
+                height: 140px;
+                width: 382px;
+                margin: 10px;
+                background-color: white;
+                border-radius: 20px;
+            }
+            .img_article2 {
+                width: 125px;
+                height: 134px;
+                border-radius: 20px 0px 0px 20px;
+                border: solid 3px white;
+            }
+            .paragraphe2{
+                display: inline;
+                font-size: 12px;
+                padding: 10px 0px 0px 0px;
+                height: 130px;
+                width: 147px;
+            }
+            .trend{
+                display: inline-flex;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .texte1 {
+                display: inline-flex;
+                padding-left: 0px;
+            }
+            .texte2{
+                text-decoration: none;
+                display: inline-block;
+                padding: 0px;
+            }
+            .paragraphe3 {
+                display: inline-block;
+                font-size: 12px;
+                padding: 10px 0px 0px 20px;
+                height: 117px;
+                width: 150px;
+                }
+            .rating3 {
+                color: #0065FC;
+                display: inline-flex;
+                padding-top: 60px;
+            }
+
 
   @media all and (max-width: 768px){
 
