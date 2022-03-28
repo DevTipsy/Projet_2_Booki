@@ -295,6 +295,73 @@ h2{
                 display: inline-flex;
                 padding-top: 60px;
             }
+    /*activités*/
+    .activites{
+        display: inline-flex;
+        margin: 100px 45px 100px 45px;
+        width: 1005px;
+    }
+            .type1{
+                width: 200px;
+                height: 250px;
+                border-radius: 25px 25px 0px 0px;
+            }
+            .type2{
+                width: 150px;
+                height: 100px;
+            }
+            .carte1 {
+                display: inline-block;
+                align-self: flex-start;
+                border-radius: 25px;
+                border: solid 1px;
+                height: 300px;
+                width: 200px;
+            }
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        background-color: #F2F2F2;
+        display: flex;
+        font-size: 12px;
+        height: 245px;
+    }
+    .pdp1 {
+        margin-left: 55px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+    .pdp2 {
+        margin-left: 144px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
 
 
   @media all and (max-width: 768px){
