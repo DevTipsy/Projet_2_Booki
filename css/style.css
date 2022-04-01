@@ -13,7 +13,7 @@ header{
 img.logo1{
   height: 50px;
   width: 100px;
-  margin: 25px 0px 25px 25px;
+  margin: 25px 0px 25px 30px;
 }
 nav{
     width: auto;
@@ -48,8 +48,16 @@ nav a:hover{
 }
 main{
   margin: 0px 10px 0px 10px;
-  height: 1500px;
+  height: auto;
 }
+h1{
+    font-size: 20px;
+    margin: 5px 5px 5px 20px;
+}
+.intro{
+    margin: 10px 5px 15px 20px;
+}
+
 .container
 .input{
 	border: 0;
@@ -133,6 +141,9 @@ main{
         text-decoration: none;
         display: inline-block;
         padding: 0px 10px 0px 10px;
+    }
+    .myButton {
+        font-weight: bold;
     }
     a.myButton:hover {
         background-color:transparent;
@@ -271,8 +282,10 @@ h2{
             }
             .trend{
                 display: inline-flex;
+                justify-content: space-between;
                 font-size: 16px;
                 font-weight: bold;
+                width: 100%;
             }
             .texte1 {
                 display: inline-flex;
@@ -296,37 +309,77 @@ h2{
                 padding-top: 60px;
             }
     /*activités*/
-    .activites{
-        display: inline-flex;
-        margin: 100px 45px 100px 45px;
-        width: 1005px;
+    .activ{
+        margin-bottom: 15px;
     }
-            .type1{
-                width: 200px;
-                height: 250px;
-                border-radius: 25px 25px 0px 0px;
-            }
-            .type2{
-                width: 150px;
-                height: 100px;
-            }
-            .carte1 {
-                display: inline-block;
-                align-self: flex-start;
-                border-radius: 25px;
-                border: solid 1px;
-                height: 300px;
-                width: 200px;
-            }
-              
-
-
-
-
-
-
-
-
+    .activites {
+            margin: 50px 50px 50px 50px;
+            width: 1385px;
+    }
+      .bloccartes {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+      }
+      .bloccartes img {
+        border-radius: 25px 25px 0px 0px;
+      }
+      .big {
+        height: 350px;
+        width: 270px;
+      }
+        img.small1 {
+        height: 150px;
+        width: 270px;
+      }
+      img.small2 {
+        height: 115px;
+        width: 270px;
+      }
+      img.small3 {
+        height: 115px;
+        width: 270px;
+      }
+      .carte1{
+        border-radius: 25px;
+        box-shadow:0 1px 2px rgba(0,0,0,0.07);
+        height: 400px;
+        width: 270px;
+      }
+      .carte2{
+        border-radius: 25px;
+        box-shadow:0 1px 2px rgba(0,0,0,0.07);
+        height: 200px;
+        width: 270px;
+        margin-bottom: 50px;
+      }
+      .carte3{
+        border-radius: 25px;
+        box-shadow:0 1px 2px rgba(0,0,0,0.07);
+        height: 150px;
+        width: 270px;
+      }
+      .carte4{
+        border-radius: 25px;
+        box-shadow:0 1px 2px rgba(0,0,0,0.07);
+        height: 175px;
+        width: 270px;
+        margin-bottom: 45px;
+      }
+      .carte5{
+        border-radius: 25px;
+        box-shadow:0 1px 2px rgba(0,0,0,0.07);
+        height: 175px;
+        width: 270px;
+      }
+      .description{
+        padding: 15px;
+      }
+      .description2{
+        padding: 5px 5px 5px 20px;
+      }
 
 
 
