@@ -52,10 +52,10 @@ main{
 }
 h1{
     font-size: 20px;
-    margin: 5px 5px 5px 20px;
+    margin: 1px 0px 5px 20px;
 }
 .intro{
-    margin: 10px 5px 15px 20px;
+    margin: 10px 0px 15px 20px;
 }
 
 .container
@@ -68,6 +68,7 @@ h1{
 	height: 45px;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    margin: 0px;
 }
 .search_wrap
 .input{
@@ -113,11 +114,14 @@ h1{
     background-size: 482px;
     padding: 13px;
 }
+.container {
+    margin: 0px 0px 0px 20px;
+}
 
 .filtreparent{
     display: inline-flex;
     align-items: center;
-    margin-top: 20px;
+    margin: 25px 0px 0px 20px;
 }
     .filtre {
         background-color:transparent;
@@ -142,6 +146,9 @@ h1{
         display: inline-block;
         padding: 0px 10px 0px 10px;
     }
+    .filter{
+        font-weight: bold;
+    }
     .myButton {
         font-weight: bold;
     }
@@ -161,8 +168,7 @@ h1{
         padding: 11px;
     }
     .infoicone{
-        margin-top: 30px;
-        margin-bottom: 50px;
+        margin: 35px 0px 40px 20px;
     }
     .infoicone p{
         margin-left: 15px;
@@ -308,6 +314,12 @@ h2{
                 display: inline-flex;
                 padding-top: 60px;
             }
+            h2.popu {
+                font-size: 16px;
+                width: 100%;
+                margin: 0px 0px 0px 0px;
+                }
+
     /*activités*/
     .activ{
         margin-bottom: 15px;
@@ -380,24 +392,6 @@ h2{
       .description2{
         padding: 5px 5px 5px 20px;
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     footer {
         background-color: #F2F2F2;
