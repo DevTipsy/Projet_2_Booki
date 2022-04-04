@@ -115,13 +115,14 @@ h1{
     padding: 13px;
 }
 .container {
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 50px;
 }
 
 .filtreparent{
     display: inline-flex;
     align-items: center;
-    margin: 25px 0px 0px 20px;
+    margin: 25px 0px 1px 55px;
+    width: auto;
 }
     .filtre {
         background-color:transparent;
@@ -131,11 +132,11 @@ h1{
         cursor:pointer;
         color:#000000;
         font-family:Raleway;
-        font-size:12px;
+        font-size:14px;
         text-decoration:none;
-        margin-left: 20px;
+        margin-left: 30px;
         width: auto;
-        height: 35px;
+        height: 40px;
         align-items: center;
     }
     .filtre:hover{
@@ -151,6 +152,8 @@ h1{
     }
     .myButton {
         font-weight: bold;
+        color: black;
+        padding: 0px 25px 0px 10px;
     }
     a.myButton:hover {
         background-color:transparent;
@@ -162,13 +165,13 @@ h1{
     .filtre i{
         background-color: #DEEBFF;
         color: #0065FC;
-        font-size: 15px;
+        font-size: 20px;
         border-radius: 28px;
         text-align: center;
         padding: 11px;
     }
     .infoicone{
-        margin: 35px 0px 40px 20px;
+        margin: 35px 0px 40px 55px;
     }
     .infoicone p{
         margin-left: 15px;
@@ -322,7 +325,7 @@ h2{
 
     /*activités*/
     .activ{
-        margin-bottom: 15px;
+        margin: 0px 0px 20px 0px;
     }
     .activites {
             margin: 50px 50px 50px 50px;
@@ -388,26 +391,31 @@ h2{
       }
       .description{
         padding: 15px;
+        color: black;
       }
       .description2{
         padding: 5px 5px 5px 20px;
+        color: black;
       }
 
     footer {
         background-color: #F2F2F2;
         display: flex;
-        font-size: 12px;
-        height: 245px;
+        font-size: 14px;
+        height: 235px;
     }
     .pdp1 {
         margin-left: 55px;
         line-height: 25px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .pdp2 {
         margin-left: 144px;
         line-height: 25px;
-        margin-top: 40px;
+        margin-top: 50px;
+    }
+    .foot{
+        margin-bottom: 15px;
     }
 
 
@@ -444,7 +452,7 @@ h2{
         width: 50%;/*100% divisé par le nombre d'éléments de menu*/
         text-align: center;/*Centre le texte dans les éléments de menu*/
         margin: 0px 0px 10px 0px;
-        border-bottom: 2px solid rgb(242, 242, 242);
+        border-bottom: 3px solid rgb(242, 242, 242);
     }
     nav a:hover{
         border-top: none;
@@ -452,7 +460,7 @@ h2{
     nav li:hover{
         color: rgba(0, 101, 242);
         border-top: none;
-        border-bottom: 2px solid rgba(0, 101, 242);
+        border-bottom: 3px solid rgba(0, 101, 242);
     }
     main{
         margin-top: 10px;
@@ -462,8 +470,4 @@ h2{
         margin-bottom: 10px;
         font-size: 20px;
         }
-}
-
-footer {
-    background-color:#F2F2F2;
 }
