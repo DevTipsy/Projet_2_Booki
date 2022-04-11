@@ -195,6 +195,7 @@ display: none;
         display: inline-flex;
     }
 .containers{
+    display: contents;
     margin-left: 10px;
     width: 100%
 }
@@ -430,20 +431,19 @@ h2{
         background-color: #F2F2F2;
         display: flex;
         font-size: 14px;
-        height: auto;
     }
     .pdp1 {
-        margin-left: 55px;
         line-height: 25px;
-        margin-top: 50px;
+        padding: 50px;
+        width: 44%;
     }
     .pdp2 {
-        margin-left: 144px;
         line-height: 25px;
-        margin-top: 50px;
+        padding: 50px 50px 50px 15px;
+        width: 33%;
     }
     .foot{
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
 
@@ -538,7 +538,7 @@ h2{
         display: inline-flex;
         align-items: center;
         margin: 25px 0px 1px 10px;
-        width: 100%;
+        width: 98%;
         flex-wrap: wrap;
     }
     .container {
@@ -576,9 +576,9 @@ h2{
     .article1 {
         display: inline-flex;
         flex-wrap: wrap;
-        height: 248px;
+        height: 255px;
         width: 100%;
-        margin: 10px;
+        margin: 10px 0px 10px 0px;
         background-color: white;
         border-radius: 20px;
         box-shadow:0 1px 2px rgba(0,0,0,0.07);
@@ -594,7 +594,7 @@ h2{
         font-size: 12px;
         padding: 0px 0px 0px 13px;
         line-height: 20px;
-        height: 124px;
+        height: auto;
     }
     h3 {
         margin-right: 0px;
@@ -611,8 +611,8 @@ h2{
         display: flex;
         flex-wrap: wrap;
         height: 100%;
-        width: 720px;
-        padding: 5px 70px 10px 53px;
+        width: 100%;
+        padding: 5px 5% 10px 5%;
     }
     /*Bloc 2*/
     .flex_container2 {
@@ -659,8 +659,10 @@ h2{
         width: 300px;
     }
     .activites {
-        margin: 50px 50px 50px 50px;
-        width: 100%;
+        display: inline-block;
+        margin: 50px 0px 50px 0px;
+        padding: 0px 5% 0px 5%;
+        width: 90%;
     }
     .bloccartes {
         flex-direction: column;
@@ -675,8 +677,8 @@ h2{
         display: inline-flex;
         flex-wrap: wrap;
         height: 248px;
-        width: 80%;
-        margin: 10px;
+        width: 100%;
+        margin: 10px 0px 10px 0px;
         background-color: white;
         border-radius: 20px;
         box-shadow: 0 1px 2px rgb(0 0 0 / 7%);
@@ -693,14 +695,15 @@ h2{
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: auto;
     }
     .pdp1 {
         line-height: 25px;
-        margin: 50px 0px 50px 55px;
+        padding: 50px 0px 50px 35px;
     }
     .pdp2 {
         line-height: 25px;
-        margin: 0px 0px 50px 55px;
+        padding: 0px 0px 50px 35px;
     }
 
 }
