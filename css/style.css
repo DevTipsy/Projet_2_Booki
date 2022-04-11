@@ -47,9 +47,9 @@ nav a:hover{
     border-top: 2px solid rgba(0, 101, 242);
 }
 main{
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
   height: auto;
-  width: 98%;
+  width: 100%;
 }
 h1{
     font-size: 20px;
@@ -65,7 +65,7 @@ h1{
 }
 .search_wrap{
     display: flex;
-	width: 363px;
+	width: 350px;
 	height: 45px;
     border: solid 1px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
@@ -125,8 +125,8 @@ display: none;
 .filtreparent{
     display: inline-flex;
     align-items: center;
-    margin: 25px 0px 1px 55px;
-    width: 100%;
+    margin: 25px 0px 0px 55px;
+    width: 96%;
     flex-wrap: wrap;
 }
     .filtre {
@@ -196,6 +196,7 @@ display: none;
     }
 .containers{
     margin-left: 10px;
+    width: 100%
 }
 /*bloc1*/
 h2{
@@ -248,7 +249,6 @@ h2{
         }
         a.texte {
             text-decoration: none;
-            display: inline;
             padding: 0px;
         }
         a.plus{
@@ -354,14 +354,15 @@ h2{
         width: 200px;
     }
     .activites {
-            margin: 50px 50px 50px 50px;
-            width: 1385px;
+            padding: 50px 50px 50px 50px;
+            width: 93%;
+            height: auto;
     }
       .bloccartes {
         display: inline-flex;
         flex-wrap: wrap;
         flex-direction: column;
-        height: 400px;
+        height: 402px;
         width: 100%;
       }
       .bloccartes img {
@@ -387,7 +388,7 @@ h2{
       .carte1{
         border-radius: 25px;
         box-shadow:0 1px 2px rgba(0,0,0,0.07);
-        height: 400px;
+        height: 100%;
         width: 270px;
       }
       .carte2{
@@ -429,7 +430,7 @@ h2{
         background-color: #F2F2F2;
         display: flex;
         font-size: 14px;
-        height: 235px;
+        height: auto;
     }
     .pdp1 {
         margin-left: 55px;
@@ -446,7 +447,7 @@ h2{
     }
 
 
-  @media all and (max-width: 768px){
+@media all and (max-width: 768px){
 
     header {
         max-width: 1024px;
@@ -497,23 +498,23 @@ h2{
         margin-bottom: 10px;
         font-size: 20px;
     }
-/*Barre recherche*/
-.loupe{
-    height: 100%;
-	background-color: rgba(0, 101, 242);
-	z-index: 1;
-	cursor: pointer;
-	color: white;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-    border-radius:  15px;
-}
-.btn p{
-    display: none;
-}
-.search_wrap .btn {
-    display: none;
+    /*Barre recherche*/
+    .loupe{
+        height: 100%;
+        background-color: rgba(0, 101, 242);
+        z-index: 1;
+        cursor: pointer;
+        color: white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius:  15px;
+    }
+    .btn p{
+        display: none;
+    }
+    .search_wrap .btn {
+        display: none;
     }
     .loupe i {
         font-size: 17px;
@@ -526,104 +527,180 @@ h2{
     }
     .search_wrap {
         display: flex;
-        width: 299px;
+        width: 270px;
         height: 45px;
         border: solid 1px #F2F2F2;
         border-radius: 20px;
         margin: 0px;
-        }
-/*Filtres*/
+    }
+    /*Filtres*/
     .filtreparent {
         display: inline-flex;
         align-items: center;
         margin: 25px 0px 1px 10px;
         width: 100%;
         flex-wrap: wrap;
-        }
+    }
     .container {
         margin: 0px 0px 0px 25px;
-        }
-/*Infoicone*/
-.infoicone {
-    display: flex;
-    margin: 25px 0px 40px 0px;
+    }
+    /*Infoicone*/
+    .infoicone {
+        display: flex;
+        margin: 25px 0px 40px 0px;
     }
     .infoicone i {
         display: inline-flex;
         height: 16px;
-        }
-/*Conteneurs*/
-.containers {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
     }
-/*Bloc 1*/
-.flex_container {
-    display: flex;
-    flex-wrap: wrap;
-    order: 2;
-    height: auto;
-    width: 100%;
-    border-radius: 20px;
-    background-color: #F2F2F2;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    margin-left: 30px;
+    /*Conteneurs*/
+    .containers {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-bottom: 100px;
+    }
+    /*Bloc 1*/
+    .flex_container {
+        display: flex;
+        flex-wrap: wrap;
+        order: 2;
+        height: auto;
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin-left: 0px;
+    }
+    .article1 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: 248px;
+        width: 100%;
+        margin: 10px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow:0 1px 2px rgba(0,0,0,0.07);
+    }
+    .img_article {
+        width: 100%;
+        height: 164px;
+        border-radius: 20px 20px 0px 0px;
+        border: solid 3px white;
+        object-fit: cover;
+    }
+    .paragraphe {
+        font-size: 12px;
+        padding: 0px 0px 0px 13px;
+        line-height: 20px;
+        height: 124px;
+    }
+    h3 {
+        margin-right: 0px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    a.texte {
+        text-decoration: none;
+        display: inline;
+        padding: 0px;
+        width: 100%;
+    }
+    .bloc_article {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 720px;
+        padding: 5px 70px 10px 53px;
+    }
+    /*Bloc 2*/
+    .flex_container2 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        order: 1;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        background-color: #F2F2F2;
+        margin: 0px 0px 0px -10px;
+        padding: 25px 25px 25px 25px;
+    }
+    .article2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 140px;
+        width: 100%;
+        margin: 10px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .img_article2 {
+        width: 125px;
+        height: 130px;
+        border-radius: 20px 0px 0px 20px;
+        border: solid 5px white;
+        object-fit: cover;
+    }
+    h3 {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .rating3 {
+        color: #0065FC;
+        display: inline-flex;
+        padding-top: 43px;
+    }
+    /*Activites*/
+    #Activités_à_Marseille {
+        margin: 0px 0px 20px 0px;
+        width: 300px;
+    }
+    .activites {
+        margin: 50px 50px 50px 50px;
+        width: 100%;
+    }
+    .bloccartes {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .carte1,
+    .carte2,
+    .carte3,
+    .carte4,
+    .carte5{
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: 248px;
+        width: 80%;
+        margin: 10px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / 7%);
+    }
+    .big,
+    img.small1,
+    img.small2,
+    img.small3{
+        height: 190px;
+        width: 100%;
+    }
+    /*Footer*/
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pdp1 {
+        line-height: 25px;
+        margin: 50px 0px 50px 55px;
+    }
+    .pdp2 {
+        line-height: 25px;
+        margin: 0px 0px 50px 55px;
     }
 
-/*Bloc 2*/
-.flex_container2 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    order: 1;
-    height: 100%;
-    width: 100%;
-    border-radius: 0px;
-    background-color: #F2F2F2;
-    margin: 0px 0px 0px -10px;
-    padding: 25px 25px 25px 25px;
 }
-.article2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 140px;
-    width: 100%;
-    margin: 10px;
-    background-color: white;
-    border-radius: 20px;
-    }
-.img_article2 {
-    width: 125px;
-    height: 130px;
-    border-radius: 20px 0px 0px 20px;
-    border: solid 5px white;
-    object-fit: cover;
-    }
-h3 {
-    margin-right: 0px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    }
-.rating3 {
-    color: #0065FC;
-    display: inline-flex;
-    padding-top: 43px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
