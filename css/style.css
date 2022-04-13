@@ -53,10 +53,10 @@ main{
 }
 h1{
     font-size: 20px;
-    margin: 1px 0px 5px 20px;
+    margin: 1px 0px 5px 30px;
 }
 .intro{
-    margin: 10px 0px 15px 20px;
+    margin: 10px 0px 15px 30px;
 }
 
 .container
@@ -119,14 +119,14 @@ display: none;
     padding: 13px;
 }
 .container {
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 30px;
 }
 
 .filtreparent{
     display: inline-flex;
     align-items: center;
-    margin: 25px 0px 0px 55px;
-    width: 96%;
+    margin: 25px 0px 0px 30px;
+    width: 94%;
     flex-wrap: wrap;
 }
     .filtre {
@@ -139,7 +139,7 @@ display: none;
         font-family:Raleway;
         font-size:14px;
         text-decoration:none;
-        margin: 5px 0px 5px 10px;
+        margin: 5px 5px 5px 0px;
         width: auto;
         height: 40px;
         align-items: center;
@@ -154,8 +154,7 @@ display: none;
     }
     .filter{
         font-weight: bold;
-        margin: 10px 0px 5px 0px;
-        width: 100%;
+        margin: 10px 20px 5px 0px;
     }
     .myButton {
         font-weight: bold;
@@ -178,7 +177,7 @@ display: none;
         padding: 11px;
     }
     .infoicone{
-        margin: 35px 0px 40px 55px;
+        margin: 35px 0px 40px 30px;
     }
     .infoicone i {
         display: inline-flex;
@@ -196,67 +195,65 @@ display: none;
     }
 .containers{
     display: contents;
-    margin-left: 10px;
     width: 100%
 }
 /*bloc1*/
 h2{
     font-size: 16px;
     width: 100%;
-    margin: 25px 0px 0px 60px;
+    margin: 25px 0px 0px 4%;
 }
     .flex_container {
         display: inline-flex;
         flex-wrap: wrap;
         order: 1;
-        height: auto;
-        width: 61%;
+        height: 553px;
+        width: 60%;
         border-radius: 20px;
         background-color: #F2F2F2;
         padding-top: 10px;
         padding-bottom: 50px;
-        margin-left: 30px;
+        margin: 0px 0% 0px 2%;
         }
         .article1 {
         display: inline-flex;
         flex-wrap: wrap;
-        height: 200px;
-        width: 220px;
-        margin: 10px;
+        height: 220px;
+        width: 29%;
+        margin: 2%;
         background-color: white;
         border-radius: 20px;
         }
-
        .paragraphe{
             font-size: 12px;
-            padding: 0px 0px 0px 13px;
+            padding: 0px 0px 0px 7%;
             line-height: 20px;
+            width: 93%;
         }
-
         .bloc_article {
             display: flex;
             flex-wrap: wrap;
-            height: 440px;
-            width: 720px;
-            padding: 5px 70px 20px 53px;
+            height: auto;
+            width: 100%;
+            padding: 5px 2% 5px 2%;
         }
-
         .img_article {
-            width: 214px;
-            height: 118px;
+            width: 97%;
+            height: 125px;
             border-radius: 20px 20px 0px 0px;
-            border: solid 3px white;
+            border: solid 4px white;
             object-fit: cover;
         }
         a.texte {
             text-decoration: none;
             padding: 0px;
+            width: 100%;
         }
         a.plus{
             text-decoration: none;
             color: #000000;
             display: inline-block;
-            padding: 0px 10px 0px 65px;
+            padding: 0px 10px 0px 35px;
         }
         h3{
             color: #000000;
@@ -277,11 +274,11 @@ h2{
                 display: inline-flex;
                 flex-wrap: wrap;
                 order: 2;
-                height: 516px;
-                width: 355px;;
+                height: 543px;
+                width: 29%;
                 border-radius: 20px;
                 background-color: #F2F2F2;
-                margin: 0px 0px 0px 55px;
+                margin: 0px 2% 0px 2%;
                 padding: 35px 2% 35px 2%;
             }
             figure .popu{
@@ -296,13 +293,13 @@ h2{
                 flex-direction: column ;
                 flex-wrap: wrap;
                 height: 140px;
-                min-width: 335px;
-                margin: 10px;
+                width: 100%;
+                margin: 2%;
                 background-color: white;
                 border-radius: 20px;
             }
             .img_article2 {
-                width: 125px;
+                width: 130px;
                 height: 134px;
                 border-radius: 20px 0px 0px 20px;
                 border: solid 3px white;
@@ -334,14 +331,16 @@ h2{
             .paragraphe3 {
                 display: inline-block;
                 font-size: 12px;
-                padding: 10px 0px 0px 20px;
-                height: 117px;
-                width: 54%;
+                padding: 10px 0px 0px 2%;
+                height: 128px;
+                width: 42%;
+                position: relative;
                 }
             .rating3 {
                 color: #0065FC;
                 display: inline-flex;
-                padding-top: 60px;
+                position: absolute;
+                top: 80%;
             }
             h2.popu {
                 font-size: 16px;
@@ -355,8 +354,8 @@ h2{
         width: 200px;
     }
     .activites {
-            padding: 50px 50px 50px 50px;
-            width: 93%;
+            padding: 50px 3% 50px 3%;
+            width: 94%;
             height: auto;
     }
       .bloccartes {
@@ -371,55 +370,55 @@ h2{
         object-fit: cover;
       }
       .big {
-        height: 350px;
-        width: 270px;
+        height: 345px;
+        width: 100%;
       }
         img.small1 {
         height: 150px;
-        width: 270px;
+        width: 100%;
       }
       img.small2 {
         height: 115px;
-        width: 270px;
+        width: 100%;
       }
       img.small3 {
         height: 115px;
-        width: 270px;
+        width: 100%;
       }
       .carte1{
         border-radius: 25px;
         box-shadow:0 1px 2px rgba(0,0,0,0.07);
         height: 100%;
-        width: 270px;
+        width: 23%;
       }
       .carte2{
         border-radius: 25px;
         box-shadow:0 1px 2px rgba(0,0,0,0.07);
         height: 200px;
-        width: 270px;
+        width: 23%;
         margin-bottom: 50px;
       }
       .carte3{
         border-radius: 25px;
         box-shadow:0 1px 2px rgba(0,0,0,0.07);
         height: 150px;
-        width: 270px;
+        width: 23%;
       }
       .carte4{
         border-radius: 25px;
         box-shadow:0 1px 2px rgba(0,0,0,0.07);
         height: 175px;
-        width: 270px;
-        margin-bottom: 45px;
+        width: 23%;
+        margin-bottom: 50px;
       }
       .carte5{
         border-radius: 25px;
         box-shadow:0 1px 2px rgba(0,0,0,0.07);
         height: 175px;
-        width: 270px;
+        width: 23%;
       }
       .description{
-        padding: 15px;
+        padding: 10px;
         color: black;
       }
       .description2{
@@ -448,9 +447,7 @@ h2{
 
 
 @media all and (max-width: 768px){
-
     header {
-        max-width: 1024px;
         flex-direction: column;
         align-items: center;
         font-size: 16px;
@@ -490,6 +487,13 @@ h2{
     main{
         margin-top: 10px;
     }
+    .intro{
+        margin: 15px 0px 20px 20px;
+    }
+    h1{
+        font-size: 22px;
+        margin: 0px 20px 10px 23px;
+    }
     .firstparag{
         margin: 0% 10% 0% 0%;
     }
@@ -499,6 +503,9 @@ h2{
         font-size: 20px;
     }
     /*Barre recherche*/
+    .container {
+        margin: 0px 25px 0px 25px;
+    }
     .loupe{
         height: 100%;
         background-color: rgba(0, 101, 242);
@@ -516,6 +523,12 @@ h2{
     .search_wrap .btn {
         display: none;
     }
+    .search_wrap .input {
+        height: -webkit-fill-available;
+        font-weight: bold;
+        width: 100%;
+        padding-left: 10px;
+        }
     .loupe i {
         font-size: 17px;
         align-items: center;
@@ -527,7 +540,7 @@ h2{
     }
     .search_wrap {
         display: flex;
-        width: 270px;
+        width: 100%;
         height: 45px;
         border: solid 1px #F2F2F2;
         border-radius: 20px;
@@ -537,28 +550,35 @@ h2{
     .filtreparent {
         display: inline-flex;
         align-items: center;
-        margin: 25px 0px 1px 10px;
-        width: 98%;
+        margin: 25px 0px 0px 10px;
+        width: 100%;
         flex-wrap: wrap;
-    }
-    .container {
-        margin: 0px 0px 0px 25px;
-    }
+        }
+        .filter {
+            font-weight: bold;
+            margin: 10px 0px 10px 15px;
+            width: 100%;
+            }
     /*Infoicone*/
     .infoicone {
         display: flex;
-        margin: 25px 0px 40px 0px;
+        margin: 25px 0px 40px 20px;
     }
     .infoicone i {
         display: inline-flex;
         height: 16px;
     }
+    .infoicone p {
+        margin-left: 15px;
+        display: inline-flex;
+        font-size: 17px;
+        }
     /*Conteneurs*/
     .containers {
         display: flex;
         flex-wrap: wrap;
         margin-left: 0px;
-        margin-bottom: 100px;
+        margin-bottom: 35px;
     }
     /*Bloc 1*/
     .flex_container {
@@ -607,6 +627,12 @@ h2{
         padding: 0px;
         width: 100%;
     }
+    a.plus {
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        padding: 0px 10px 0px 35px;
+    }
     .bloc_article {
         display: flex;
         flex-wrap: wrap;
@@ -643,6 +669,14 @@ h2{
         border: solid 5px white;
         object-fit: cover;
     }
+    .paragraphe3 {
+        display: inline-block;
+        font-size: 12px;
+        padding: 10px 0px 0px 2%;
+        height: 128px;
+        width: 42%;
+        position: relative;
+    }
     h3 {
         margin-right: 0px;
         margin-bottom: 10px;
@@ -651,7 +685,8 @@ h2{
     .rating3 {
         color: #0065FC;
         display: inline-flex;
-        padding-top: 43px;
+        position: absolute;
+        padding-top: 5px;
     }
     /*Activites*/
     #Activités_à_Marseille {
