@@ -508,7 +508,7 @@ h2{
     }
     /*Barre recherche*/
     .container {
-        margin: 0px 25px 0px 25px;
+        margin: 0px 2% 0px 2%;
     }
     .loupe{
         height: 100%;
@@ -555,13 +555,13 @@ h2{
         display: inline-flex;
         align-items: center;
         margin: 2% 0px 0px 10px;
-        width: 98%;
+        width: 97%;
         flex-wrap: wrap;
         }
         .filter {
             font-weight: bold;
             margin: 10px 0px 10px 15px;
-            width: 98%;
+            width: 90%;
             }
     /*Infoicone*/
     .infoicone {
