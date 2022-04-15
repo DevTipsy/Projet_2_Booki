@@ -118,6 +118,9 @@ display: none;
     background-size: 482px;
     padding: 13px;
 }
+.btn p {
+    padding: 15px;
+}
 .container {
     margin: 0px 0px 0px 30px;
 }
@@ -551,14 +554,14 @@ h2{
     .filtreparent {
         display: inline-flex;
         align-items: center;
-        margin: 25px 0px 0px 10px;
-        width: 100%;
+        margin: 2% 0px 0px 10px;
+        width: 98%;
         flex-wrap: wrap;
         }
         .filter {
             font-weight: bold;
             margin: 10px 0px 10px 15px;
-            width: 100%;
+            width: 98%;
             }
     /*Infoicone*/
     .infoicone {
